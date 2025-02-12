@@ -1,0 +1,48 @@
+#Home{
+    background-color:#8cd65e;
+
+}
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+th, td{
+    padding:8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+#species{
+    background-color: rgb(241, 201, 165);
+}
+#survey{
+    background-color: rgb(176, 239, 255);
+    border-style:ridge;
+    border-color:grey;
+}
+#first{
+    background-color:rgb(218, 218, 218);
+}
+#last{
+    background-color:rgb(218, 218, 218);
+}
+.navbar {
+    width: 47%;
+    background-color: #f1f1f1;
+    overflow: auto;
+  }
+  .navbar a {
+    float: left;
+    padding: 12px;
+    border-style:double;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    width: 25.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  .navbar a:hover {
+    background-color: #dadada;
+  }
+  .navbar a.active {
+    background-color: #dadada;
+  }
