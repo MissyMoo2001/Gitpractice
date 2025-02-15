@@ -4,7 +4,6 @@
     border-style:ridge;
     border-color:#679e45;
     font-family: "georgia", Georgia, 'Times New Roman', Times, serif
-
 }
 table {
     border-collapse: collapse;
@@ -21,10 +20,10 @@ td{
     text-align: left;
     border-bottom: 1px solid black;
 }
-hr{
-    color:rgb(169, 169, 169);
-    border-top:5px solid rgb(120, 120, 120);
-    border-radius: 2.5px;
+.foot1 {
+    background-color: #679e45;
+    text-align: center;
+    padding: 1rem
 }
 
 #species{ /*body on snakes page*/
@@ -34,6 +33,30 @@ hr{
     border-color:rgb(134, 96, 50);
     font-family: "georgia", Georgia, 'Times New Roman', Times, serif;
 }
+.mamba img {
+    padding:.5rem;
+  }
+  .rattlesnake img {
+    float: right;
+    padding: 1rem;
+  }
+  .boa img {
+    float: right;
+    padding:1rem;
+  }
+  .python img {
+    float: right;
+    padding:1rem;
+  }
+  .facts {
+    list-style-type: circle;
+}
+  .foot2 {
+    background-color:rgb(255, 185, 123);
+    text-align: center;
+    padding: 1rem;
+}
+
 #survey{ /*body on survey page*/
     padding: 6px;
     background-color: rgb(176, 239, 255);
@@ -42,32 +65,49 @@ hr{
     font-family:'Times New Roman', Times, serif;
 }
 #first{ /*first name entry box*/
-    background-color:rgb(218, 218, 218);
+    background-color:rgb(250, 250, 250);
+    border-color:#2e9ba2;
 }
 #last{ /*last name entry box*/
-    background-color:rgb(218, 218, 218);
+    background-color:rgb(250, 250, 250);
+    border-color:#2e9ba2;
 }
-/*in need of help with navbar css*/
-.navbar {
-    width: 100%;
-    background-color: #f1f1f1;
-    overflow:hidden;
-  }
-  .navbar a {
-    float: left;
-    padding: 12px;
-    border-style:double;
-    color: rgb(0, 0, 0);
+  .submit{
+    background-color: #38bdc7;
+    border: double color#2e9ba2;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    padding: 1rem;
     text-decoration: none;
-    font-size: 17px;
-    width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+    margin: 4px 2px;
+    cursor: pointer;
   }
+  .foot3 {
+    background-color: rgb(135, 231, 255);
+    text-align: center;
+}
+/*on all pages*/
+.nav-item {
+    border:3px;
+    font-size: 17px;
+    width: 30%;
+    padding: 1rem;
+    margin: 0 auto;
+    border-style: double;
+    color:#dadada;
+    background-color:#383838;
+}
   .navbar a:hover {
     background-color: #dadada;
+    color: #383838;
   }
-  .navbar a.active {
+  .navbar #active {
     background-color: #dadada;
+    color: #383838;
   }
-  /*make sure to ask about nav bar*/
-  
+  hr{
+    color:rgb(169, 169, 169);
+    border-top:5px solid rgb(120, 120, 120);
+    border-radius: 2.5px;
+}
