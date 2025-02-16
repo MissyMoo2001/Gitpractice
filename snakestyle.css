@@ -72,7 +72,7 @@ td{
     background-color:rgb(250, 250, 250);
     border-color:#2e9ba2;
 }
-  .submit{
+.submit{
     background-color: #38bdc7;
     border: double color#2e9ba2;
     font-size:20px;
@@ -83,7 +83,7 @@ td{
     margin: 4px 2px;
     cursor: pointer;
   }
-  .foot3 {
+.foot3 {
     background-color: rgb(135, 231, 255);
     text-align: center;
 }
@@ -98,15 +98,15 @@ td{
     color:#dadada;
     background-color:#383838;
 }
-  .navbar a:hover {
+.navbar a:hover {
     background-color: #dadada;
     color: #383838;
   }
-  .navbar #active {
+.navbar #active {
     background-color: #dadada;
     color: #383838;
   }
-  hr{
+hr{
     color:rgb(169, 169, 169);
     border-top:5px solid rgb(120, 120, 120);
     border-radius: 2.5px;
